@@ -412,6 +412,27 @@ a {
     color: var(--main-heading);
 }
 
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--main-heading);
+    transition: color 0.2s;
+}
+
+.project-link:hover {
+    color: var(--main-accent);
+}
+
+.project-link svg {
+    opacity: 0.4;
+    transition: opacity 0.2s;
+}
+
+.project-link:hover svg {
+    opacity: 1;
+}
+
 .project-card__subtitle {
     font-size: 0.78rem;
     color: var(--main-accent);
