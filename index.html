@@ -6,175 +6,228 @@
     <title>Ajmol Hossain — UI/UX Designer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="resume">
-        <!-- Header -->
-        <header class="header">
-            <div class="header__name">
-                <h1>Ajmol Hossain</h1>
-                <p class="header__title">Mid Level UI/UX Designer</p>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar__top">
+                <div class="avatar">AH</div>
+                <h1 class="sidebar__name">Ajmol<br>Hossain</h1>
+                <p class="sidebar__title">UI/UX Designer</p>
             </div>
-            <div class="header__contact">
-                <div class="contact-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                    <span>Bakalia, Chattogram, BD</span>
-                </div>
-                <div class="contact-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                    <span>+880 1812 689 569</span>
-                </div>
-                <div class="contact-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                    <a href="mailto:ajmol539@gmail.com">ajmol539@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-                    <a href="https://linkedin.com/in/ajmol-h/" target="_blank">linkedin.com/in/ajmol-h</a>
-                </div>
-                <div class="contact-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-                    <a href="https://www.behance.net/ajmalh" target="_blank">behance.net/ajmalh</a>
-                </div>
-            </div>
-        </header>
 
-        <!-- Professional Summary -->
-        <section class="section">
-            <h2 class="section__title">Professional Summary</h2>
-            <p class="summary">
-                UI/UX Designer with 3+ years of experience designing scalable digital products across web and mobile. Specialized in UX systems, design systems, and AI-augmented design workflows that accelerate product delivery from concept to high-fidelity prototypes. Strong focus on usability, conversion-driven design, and cross-functional collaboration with global teams.
-            </p>
-        </section>
-
-        <!-- Professional Experience -->
-        <section class="section">
-            <h2 class="section__title">Professional Experience</h2>
-
-            <div class="experience">
-                <div class="experience__header">
-                    <div>
-                        <h3 class="experience__role">Sr. UI/UX Designer</h3>
-                        <p class="experience__company">Antripe</p>
-                    </div>
-                    <span class="experience__date">Nov 2025 — Present</span>
-                </div>
-                <ul class="experience__list">
-                    <li>Lead end-to-end product design across multiple products, owning full lifecycle from discovery to delivery.</li>
-                    <li>Leverage an AI-accelerated pipeline (Claude → v0 → Figma / Framer) to move from concept to high-fidelity prototypes, reducing turnaround time.</li>
-                    <li>Built and scaled a design system used across 3+ products, reducing UI inconsistency.</li>
-                    <li>Collaborated with cross-functional teams, conducted user research, and mentored designers.</li>
+            <div class="sidebar__section">
+                <h3 class="sidebar__heading">Contact</h3>
+                <ul class="contact-list">
+                    <li>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        Bakalia, Chattogram, BD
+                    </li>
+                    <li>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.81.36 1.6.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c1.21.34 2 .57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        +880 1812 689 569
+                    </li>
+                    <li>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <a href="mailto:ajmol539@gmail.com">ajmol539@gmail.com</a>
+                    </li>
+                    <li>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        <a href="https://linkedin.com/in/ajmol-h/" target="_blank">linkedin.com/in/ajmol-h</a>
+                    </li>
+                    <li>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        <a href="https://www.behance.net/ajmalh" target="_blank">behance.net/ajmalh</a>
+                    </li>
                 </ul>
             </div>
 
-            <div class="experience">
-                <div class="experience__header">
-                    <div>
-                        <h3 class="experience__role">UI/UX Designer</h3>
-                        <p class="experience__company">TiCON System</p>
+            <div class="sidebar__section">
+                <h3 class="sidebar__heading">Skills</h3>
+
+                <div class="skill-category">
+                    <h4>AI Workflow</h4>
+                    <div class="tags">
+                        <span class="tag">AI Ideation</span>
+                        <span class="tag">Claude Prototyping</span>
+                        <span class="tag">Antigravity</span>
                     </div>
-                    <span class="experience__date">Jul 2023 — Oct 2025</span>
                 </div>
-                <ul class="experience__list">
-                    <li>Translated client briefs into wireframes and high-fidelity designs for web and mobile.</li>
-                    <li>Introduced AI-assisted ideation to speed up early-stage concepts.</li>
-                    <li>Built reusable UI components to standardize design and improve handoff.</li>
-                    <li>Managed full design lifecycle from workshops to developer handoff and QA.</li>
-                </ul>
-            </div>
 
-            <div class="experience">
-                <div class="experience__header">
-                    <div>
-                        <h3 class="experience__role">UX Designer</h3>
-                        <p class="experience__company">UUMOO</p>
+                <div class="skill-category">
+                    <h4>Design</h4>
+                    <div class="tags">
+                        <span class="tag tag--accent">Figma</span>
+                        <span class="tag">Framer</span>
+                        <span class="tag">Photoshop</span>
+                        <span class="tag">Illustrator</span>
                     </div>
-                    <span class="experience__date">Nov 2022 — Apr 2023</span>
                 </div>
-                <ul class="experience__list">
-                    <li>Partnered with product and engineering to deliver consistent UX across platforms.</li>
-                    <li>Conducted user testing and translated insights into design improvements.</li>
-                    <li>Improved usability and engagement through iterative, data-driven design.</li>
-                </ul>
-            </div>
-        </section>
 
-        <!-- Projects -->
-        <section class="section">
-            <h2 class="section__title">Projects</h2>
-
-            <div class="experience">
-                <div class="experience__header">
-                    <div>
-                        <h3 class="experience__role">Book Circle</h3>
-                        <p class="experience__company">Founder & Designer & Developer</p>
+                <div class="skill-category">
+                    <h4>UX Process</h4>
+                    <div class="tags">
+                        <span class="tag">User Research</span>
+                        <span class="tag">Wireframing</span>
+                        <span class="tag">Prototyping</span>
+                        <span class="tag">Usability Testing</span>
                     </div>
-                    <span class="experience__date badge">Live</span>
                 </div>
-                <p class="project__description">A community platform where readers can share, exchange, and discuss books — designed, built, and shipped end-to-end.</p>
-                <ul class="experience__list">
-                    <li>Conceived the full product vision and led ideation, user research, and UX strategy from scratch.</li>
-                    <li>Designed complete UI in Figma — from wireframes to high-fidelity screens with a cohesive design system.</li>
-                    <li>Built the frontend via AI-assisted vibe coding using Antigravity, accelerating development velocity.</li>
-                    <li>Architected the backend with Supabase (auth, database, storage) for rapid, scalable deployment.</li>
-                    <li>Collaborating with a developer to re-architect the backend using Node.js for long-term scalability.</li>
-                </ul>
-            </div>
-        </section>
 
-        <!-- Skills & Expertise -->
-        <section class="section">
-            <h2 class="section__title">Skills & Expertise</h2>
-            <div class="skills">
-                <div class="skill-group">
-                    <h4 class="skill-group__label">AI Workflow</h4>
-                    <p class="skill-group__items">AI Ideation & Concept Generation, Rapid Prototyping with Claude, Vibe Coding with Antigravity</p>
+                <div class="skill-category">
+                    <h4>Systems</h4>
+                    <div class="tags">
+                        <span class="tag">Design Systems</span>
+                        <span class="tag">Component Libraries</span>
+                        <span class="tag">Token Architecture</span>
+                    </div>
                 </div>
-                <div class="skill-group">
-                    <h4 class="skill-group__label">Design Tools</h4>
-                    <p class="skill-group__items">Figma (Expert), Framer, Adobe Photoshop, Adobe Illustrator</p>
-                </div>
-                <div class="skill-group">
-                    <h4 class="skill-group__label">UX Process</h4>
-                    <p class="skill-group__items">User Research, Personas, Wireframing, Prototyping, Usability Testing, Visual Design</p>
-                </div>
-                <div class="skill-group">
-                    <h4 class="skill-group__label">Systems</h4>
-                    <p class="skill-group__items">Design Systems, Component Libraries, Token Architecture, Multi-platform Scalability</p>
-                </div>
-                <div class="skill-group">
-                    <h4 class="skill-group__label">Development</h4>
-                    <p class="skill-group__items">HTML & CSS, Supabase, Google Analytics, Stakeholder Management, Product Strategy</p>
+
+                <div class="skill-category">
+                    <h4>Development</h4>
+                    <div class="tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">Supabase</span>
+                        <span class="tag">Analytics</span>
+                    </div>
                 </div>
             </div>
-        </section>
 
-        <!-- Education & Certification -->
-        <section class="section">
-            <h2 class="section__title">Education & Certification</h2>
+            <div class="sidebar__section">
+                <h3 class="sidebar__heading">Education</h3>
 
-            <div class="education">
-                <div class="education__item">
-                    <h3 class="education__title">Google UX Design Professional Certificate</h3>
-                    <span class="education__meta">Coursera · Mar 2021 — Sep 2021</span>
+                <div class="edu-item">
+                    <p class="edu-item__title">Google UX Design Certificate</p>
+                    <p class="edu-item__meta">Coursera · 2021</p>
                 </div>
-                <div class="education__item">
-                    <h3 class="education__title">Product Design: The Essentials</h3>
-                    <span class="education__meta">Learn with Noman</span>
+                <div class="edu-item">
+                    <p class="edu-item__title">Product Design: The Essentials</p>
+                    <p class="edu-item__meta">Learn with Noman</p>
                 </div>
-                <div class="education__item">
-                    <h3 class="education__title">UI & UX Design for App & Web</h3>
-                    <span class="education__meta">Dev Skill · Dec 2020 — May 2021</span>
+                <div class="edu-item">
+                    <p class="edu-item__title">UI & UX Design for App & Web</p>
+                    <p class="edu-item__meta">Dev Skill · 2020–2021</p>
                 </div>
-                <div class="education__item">
-                    <h3 class="education__title">Bachelor of Laws (LL.B.)</h3>
-                    <span class="education__meta">Premier University, Chittagong</span>
+                <div class="edu-item">
+                    <p class="edu-item__title">Bachelor of Laws (LL.B.)</p>
+                    <p class="edu-item__meta">Premier University, Chittagong</p>
                 </div>
             </div>
-        </section>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Summary -->
+            <section class="main__section">
+                <h2 class="main__heading">
+                    <span class="main__heading-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                    </span>
+                    About
+                </h2>
+                <p class="summary">
+                    UI/UX Designer with 3+ years of experience designing scalable digital products across web and mobile. Specialized in UX systems, design systems, and AI-augmented design workflows that accelerate product delivery from concept to high-fidelity prototypes. Strong focus on usability, conversion-driven design, and cross-functional collaboration with global teams.
+                </p>
+            </section>
+
+            <!-- Experience -->
+            <section class="main__section">
+                <h2 class="main__heading">
+                    <span class="main__heading-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                    </span>
+                    Experience
+                </h2>
+
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <div class="timeline__header">
+                                <div>
+                                    <h3 class="timeline__role">Sr. UI/UX Designer</h3>
+                                    <p class="timeline__company">Antripe</p>
+                                </div>
+                                <span class="timeline__date">Nov 2025 — Present</span>
+                            </div>
+                            <ul class="timeline__list">
+                                <li>Lead end-to-end product design across multiple products, owning full lifecycle from discovery to delivery.</li>
+                                <li>Leverage an AI-accelerated pipeline (Claude → v0 → Figma / Framer) to move from concept to high-fidelity prototypes.</li>
+                                <li>Built and scaled a design system used across 3+ products, reducing UI inconsistency.</li>
+                                <li>Conducted user research, collaborated cross-functionally, and mentored designers.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <div class="timeline__header">
+                                <div>
+                                    <h3 class="timeline__role">UI/UX Designer</h3>
+                                    <p class="timeline__company">TiCON System</p>
+                                </div>
+                                <span class="timeline__date">Jul 2023 — Oct 2025</span>
+                            </div>
+                            <ul class="timeline__list">
+                                <li>Translated client briefs into wireframes and high-fidelity designs for web and mobile.</li>
+                                <li>Introduced AI-assisted ideation to speed up early-stage concepts.</li>
+                                <li>Built reusable UI components to standardize design and improve developer handoff.</li>
+                                <li>Managed full design lifecycle from workshops to QA.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <div class="timeline__header">
+                                <div>
+                                    <h3 class="timeline__role">UX Designer</h3>
+                                    <p class="timeline__company">UUMOO</p>
+                                </div>
+                                <span class="timeline__date">Nov 2022 — Apr 2023</span>
+                            </div>
+                            <ul class="timeline__list">
+                                <li>Partnered with product and engineering to deliver consistent UX across platforms.</li>
+                                <li>Conducted user testing and translated insights into design improvements.</li>
+                                <li>Improved usability and engagement through iterative, data-driven design.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="main__section">
+                <h2 class="main__heading">
+                    <span class="main__heading-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                    </span>
+                    Projects
+                </h2>
+
+                <div class="project-card">
+                    <div class="project-card__header">
+                        <div>
+                            <h3 class="project-card__title">Book Circle</h3>
+                            <p class="project-card__subtitle">Founder · Designer · Developer</p>
+                        </div>
+                        <span class="badge">● Live</span>
+                    </div>
+                    <p class="project-card__desc">A community platform where readers share, exchange, and discuss books — designed and built end-to-end.</p>
+                    <ul class="timeline__list">
+                        <li>Conceived full product vision; led ideation, user research, and UX strategy from scratch.</li>
+                        <li>Designed complete UI in Figma — wireframes to high-fidelity screens with a cohesive design system.</li>
+                        <li>Built frontend via AI-assisted vibe coding with Antigravity for rapid development.</li>
+                        <li>Architected backend with Supabase (auth, database, storage); now migrating to Node.js.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
     </div>
 </body>
 </html>
-
