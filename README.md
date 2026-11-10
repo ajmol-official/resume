@@ -2,7 +2,7 @@
 
 A clean, responsive, print-friendly resume built with semantic HTML & CSS.
 
-🔗 **Live:** [View Resume](https://ajmol.github.io/resume/) *(update with your actual GitHub Pages URL)*
+🔗 **Live:** [View Resume](https://ajmol-official.github.io/resume/)
 
 ## Tech Stack
 
