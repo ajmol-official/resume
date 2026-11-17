@@ -454,6 +454,60 @@ a {
 }
 
 /* ========================
+   TOP ACTION BAR
+   ======================== */
+.actions-bar {
+    max-width: 960px;
+    margin: 0 auto 16px auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn-download,
+.btn-print {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    font-family: var(--font-body);
+}
+
+.btn-download {
+    background: var(--main-accent);
+    color: #ffffff !important;
+    border: 1px solid var(--main-accent);
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.2);
+}
+
+.btn-download:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+}
+
+.btn-print {
+    background: #ffffff;
+    color: var(--main-text);
+    border: 1px solid var(--main-border);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.btn-print:hover {
+    background: #f8fafc;
+    color: var(--main-heading);
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
+}
+
+/* ========================
    RESPONSIVE
    ======================== */
 @media (max-width: 700px) {
@@ -520,6 +574,10 @@ a {
    PRINT
    ======================== */
 @media print {
+    .no-print {
+        display: none !important;
+    }
+
     html {
         font-size: 12px;
     }
